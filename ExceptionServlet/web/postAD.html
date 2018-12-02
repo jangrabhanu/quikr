@@ -1,0 +1,56 @@
+<html>
+<head>
+<style>
+body {
+    background-image: url("def.jpg");
+}
+fieldset { 
+    display: block;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+</style></head>
+<title>Post your AD</title>
+<body>
+<center><img src="quikrr.jpg" alt="quikr" style="width:500px;height:150px;"></center>
+<form action="postAD.jsp" method="post">
+<center>
+<br><br><br><br>
+<fieldset>
+<legend>Personal information:</legend>
+  Name:<br>
+  <input type="text" name="name" >
+  <br>
+  Email:<br>
+  <input type="text" name="email">
+  <br>
+Phone No.:<br>
+  <input type="text" name="number">
+  <br><br>
+  <input type="submit" value="Submit">
+</fieldset><br><br><br>
+<fieldset>
+Enter the product:<br>
+<input type="text" name="brand">
+<br>
+Year of purchase:<br>
+<input type="text" name="year">
+<br>
+Price:<br>
+<input type="text" name="price">
+<br>
+Upload Photo Here:<br>
+<input type="file" name="pic" id="pic"><br>
+You are:<br>
+<input type="radio" name="job" value="Dealer" checked> Dealer<br>
+<input type="radio" name="job" value="Individual"> Individual<br>
+</center><br><br>
+<center><input type="submit" value="POST AD"></center>
+</form> 
+</body>
+</html>

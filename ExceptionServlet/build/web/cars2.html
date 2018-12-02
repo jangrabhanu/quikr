@@ -1,0 +1,124 @@
+<html>
+<head>
+<style>
+body {
+    background-image: url("bhanu.jpg");
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+<h1>Used cars in India.</h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="alto.jpg">
+      <img src="alto.jpg" alt="car" width="600" height="400">
+    </a>
+<center>
+<div>
+<h1>ALTO</h1>
+<h2>Rs 1.25 lakhs</h2>
+</div>
+</center>
+    <div class="desc">Click here to buy or check the car.</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="swift.jpg">
+      <img src="swift.jpg" alt="car" width="600" height="400">
+    </a>
+<center>
+<div>
+<h1>SWIFT</h1>
+<h2>Rs 3 lakhs</h2>
+</div>
+</center>
+    <div class="desc">Click here to buy or check the car.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="dzire.jpg">
+      <img src="dzire.jpg" alt="car" width="600" height="400">
+    </a>
+<center>
+<div>
+<h1>SWIFT DZIRE</h1>
+<h2>Rs 5.6 lakhs</h2>
+</div>
+</center>
+    <div class="desc">Click here to buy or check the car.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="fortuer.jpg">
+      <img src="fortuer.jpg" alt="car" width="600" height="400">
+    </a>
+<center>
+<div>
+<h1>FORTUNER</h1>
+<h2>Rs 18 lakhs</h2>
+</div>
+</center>
+    <div class="desc">Click here to buy or check the car.</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+ 
+</div>
+
+</body>
+</html>
